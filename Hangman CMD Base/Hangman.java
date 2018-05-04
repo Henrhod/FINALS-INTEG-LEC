@@ -153,3 +153,14 @@ public class Hangman {
 		System.out.println("\nThank you " + name + " to the Hangman game.");
 	}
 }
+
+class Word {
+	private String word;
+	public Word(String word) {
+		this.word = word;
+	}
+
+	public String getWord(){
+		return word;
+	}
+}
