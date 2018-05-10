@@ -1,0 +1,10 @@
+module Hangman
+{
+  interface Hangman_Interface
+  {
+	boolean login(in string name);
+    string play(in string name);
+	void usedWord(in string name, in string word);
+	string logout(in string name);
+  };
+};
