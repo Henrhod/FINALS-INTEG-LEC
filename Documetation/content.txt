@@ -1,1 +1,52 @@
 
+Integrative Programming and Technologies
+IT 323
+
+
+
+ 
+FINAL PROJECT
+
+Hangman Client Using Python
+
+
+
+
+
+
+
+Members:
+02 Ayon-ayon, Christian Jaymar 
+03 Carabit, Jeco 
+04 Del Rosario, Miguel Paolo
+05 Dolor, Rey Christian
+09 Hilarion, Bill Lenard
+15 Patricio, Jan Ronald
+16 Pis-o, Henrhod
+19 Rivero, Theo
+25 Andres, Geovelle Jhoyce
+27 Cariño, Jonelle
+30 De Vera, Melody Riza
+33 Laxamana, Jacquelyn
+36 Oficiar, Caryl Marie
+39 Rocafort, Jam Spica
+
+
+
+
+
+
+Schedule:
+9345A 1:00 - 2:00 WS
+
+
+
+
+
+
+
+May 2018
+
+I. PROCEDURE
+II How to Execute the program
+III. Problems Encountered
