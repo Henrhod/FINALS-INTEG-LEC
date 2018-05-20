@@ -80,3 +80,17 @@ NOTE: Run this command on the command line. Make sure that the orb and the serve
 python <client>.py -ORBbootstrapAgentPort <port#> -ORBbootstrapAgentHostname <host>
 
 III. Problems Encountered
+
+1. We made use of Java Swing instead of using the required language (JavaFx) which at first, we had no idea that there was a required language to be used. Our solution to that problem is to redo our graphical user interface (GUI).
+
+2. Our Graphical User Interface (GUI) wasn’t connecting properly in the corba server and it is only connecting after the panel was closed. Our solution to the problem is we made use of override run method. 
+
+3. Our group decided to use C# for our second language and when we already finished the implementation, we found out that C# is not supported by CORBA. Our solution to our second problem is to change our language and switched to Python.
+
+4. We had a hard time setting up the omniORB and omniORBpy. We had a difficulty in generating our idl for the python client. Our action to this problem is we read manuals and documentations.
+
+5. The python client cannot connect to the server. The command within the .bat file was wrong wherein the supposed “-” in the ORBBOOTSTRAPHOST was missing.
+
+6. Problems in connecting the client to the server because putting different values for the name_service variable where in they should be the same.
+
+7. Other problems encountered where just minor problems like syntax error in translating the client in python.
