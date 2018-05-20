@@ -49,4 +49,34 @@ May 2018
 
 I. PROCEDURE
 II How to Execute the program
+
+
+Description
+Command
+Compile the interface for the server.
+idlj -fall ..\<folder>\<filename>.idl
+
+Starts the orb daemon and open a specific port for connection
+start orbd -ORBInitialPort <port#>
+
+Compile the implementation class
+javac <Implementation>.java
+
+Compile the server class
+javac <Server>.java
+
+Start the server at the port that was created earlier
+java <server> -ORBInitialPort <port#>
+
+Generate the IDL for the python client
+omniidl -bpython Hangman.idl
+
+Compile the client class
+NOTE: Make sure that you are on the directory where the source code is located.
+
+Python compiles at runtime. 
+Runs the client at the given port
+NOTE: Run this command on the command line. Make sure that the orb and the server is running. Also make sure that the path of your command line is where the client program is located. 
+python <client>.py -ORBbootstrapAgentPort <port#> -ORBbootstrapAgentHostname <host>
+
 III. Problems Encountered
